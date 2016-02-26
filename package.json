@@ -1,0 +1,28 @@
+{
+	"name": "electron-nsis",
+	"version": "0.1.0",
+	"description": "Build Windows installers for Electron apps using Nullsoft Scriptable Install System (NSIS)",
+	"main": "index.js",
+	"bin": {
+		"electron-nsis": "bin/electron-nsis.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jasonhinkle/electron-nsis.git"
+	},
+	"author": "Jason Hinkle",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jasonhinkle/electron-nsis/issues"
+	},
+	"homepage": "https://github.com/jasonhinkle/electron_nsis",
+	"dependencies": {
+		"minimist": "^1.1.1"
+	},
+	"devDependencies": {
+
+	},
+	"scripts": {
+
+	}
+}

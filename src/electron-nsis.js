@@ -1,9 +1,17 @@
 #!/usr/bin/env node
 
+// required system components
+var fs = require('fs')
+var path = require('path')
+var child = require('child_process')
+
+// required local libs
+
+
 /**
  *
  */
-module.exports.generateInstaller = function() {
+module.exports.generateInstaller = function(args) {
   console.log('Run generateInstaller');
 };
 

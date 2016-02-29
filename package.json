@@ -2,9 +2,10 @@
 	"name": "electron-nsis",
 	"version": "0.1.0",
 	"description": "Build Windows installers for Electron apps using Nullsoft Scriptable Install System (NSIS)",
-	"main": "index.js",
+	"target": "main",
+  "main": "index.js",
 	"bin": {
-		"electron-nsis": "bin/electron-nsis.js"
+		"electron-nsis": "cli.js"
 	},
 	"repository": {
 		"type": "git",
@@ -19,10 +20,12 @@
 	"dependencies": {
 		"minimist": "^1.1.1"
 	},
-	"devDependencies": {
-
-	},
 	"scripts": {
-
-	}
+    "test": "echo 'no tests yet...'"
+	},
+  "standard": {
+    "ignore": [
+      "test/work"
+    ]
+  }
 }

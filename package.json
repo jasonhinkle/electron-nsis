@@ -1,6 +1,6 @@
 {
 	"name": "electron-nsis",
-	"version": "0.1.0",
+	"version": "0.0.1-alpha",
 	"description": "Build Windows installers for Electron apps using Nullsoft Scriptable Install System (NSIS)",
 	"target": "main",
   "main": "index.js",

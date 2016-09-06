@@ -17,6 +17,7 @@
 ;General
 
   OutFile "Setup.exe"
+  RequestExecutionLevel admin
   ShowInstDetails "nevershow"
   ShowUninstDetails "nevershow"
   ;SetCompressor "bzip2"
